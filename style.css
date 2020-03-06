@@ -188,3 +188,40 @@ footer {
   color: white;
   padding: 2rem 0;
 }
+
+@media (max-width: 1024px) {
+  #navbar .logo {
+    font-size: 1.2em;
+  }
+  #showcase .showcase-content {
+    width: 75%;
+  }
+  #gallery .gallery-box {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #contact {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  #navbar .logo {
+    font-size: 1.2em;
+  }
+  #showcase .showcase-content {
+    width: 75%;
+  }
+  #gallery .gallery-box {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #contact {
+    display: block;
+  }
+  #contact .contact-image {
+    height: 250px;
+  }
+}
